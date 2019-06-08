@@ -1,0 +1,11 @@
+C     CFGTYP.INC
+C     Config type declarations
+C     jw 19-04-01
+C     jw 20-04-11 last rev
+
+      CHARACTER ERRSFI*60, TMPDIR*60, WRKDIR*60, CFGFIL*16
+
+      INTEGER   SCLINL, PRLINL, SPGWID, PPGWID, PRMLFT, PRMTOP, PRTMIN,
+     +          SCRLPP, PRLIPP, SPGHGT, PPGHGT, PRMRGT, PRMBTM, CFGLEN
+
+C     cfgtyp.inc
